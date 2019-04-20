@@ -38,31 +38,34 @@ python train.py
 if you don't want to use histogram_loss, set the learning rate to zero in model.py
 
 ## Export model
+
 You can export from a checkpoint to a standalone GraphDef file as follow:
 
 python export_graph.py
 
-##Test
+## Test
 
 python test.py
 
-##Result evaluation
+## Result evaluation
 
 python evaluation_criteria.py
 
 caculate_gmsd.m (in MATLAB)
 
 ## Results on test data
-###images results
+### Images results
 
 |![apple2orange_1](results/results.png) |
-###histogram results
+### Histogram results
+
 * T2P=T2 PROPELLER(T2W BLADE)
 * T1=T1W FLAIR(T1 FLAIR)
 * T2W=T2W FLAIR(T2 FLAIR)
 * T2PH(After adding the histogram_loss)
 * T1H(After adding the histogram_loss)
 * T2WH(After adding the histogram_loss)
+
 | T2P | T1 | | T2W | T2PH | | T1H | T2WH |
 |-------|--------|-|-------|--------|-|-------|--------|
 |![apple2orange_1](results/Figure_1.png) | 
