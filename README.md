@@ -21,54 +21,40 @@ My pretrained models are available at https://github.com/hzy5660251/Intensity-No
 
 * First, we performed SIFT image matching
 
-'''
 python SIFT.py
-'''
 
 * Then, we did image random cropping
 
-'''
 python random_crop.py
-'''
 
 * Write the dataset to tfrecords
 
-'''
 python build_data.py
-'''
 
 ## Training
 
-'''
 python train.py
-'''
 
 if you don't want to use histogram_loss, set the learning rate to zero in model.py
 
 ## Export model
 You can export from a checkpoint to a standalone GraphDef file as follow:
 
-'''
 python export_graph.py
-'''
 
 ##Test
 
-'''
 python test.py
-'''
 
 ##Result evaluation
 
-'''
 python evaluation_criteria.py
-'''
-'''
+
 caculate_gmsd.m (in MATLAB)
-'''
 
 ## Results on test data
 ###images results
+
 |![apple2orange_1](results/results.png) |
 ###histogram results
 * T2P=T2 PROPELLER(T2W BLADE)
