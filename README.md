@@ -72,7 +72,7 @@ caculate_gmsd.m (in MATLAB)
 ## Results on test data
 ### Images results
 
-|![apple2orange_1](results/results.png) |
+![apple2orange_1](results/results.png) 
 ### Histogram results
 
 * T2P=T2 PROPELLER(T2W BLADE)
@@ -82,14 +82,13 @@ caculate_gmsd.m (in MATLAB)
 * T1H(After adding the histogram_loss)
 * T2WH(After adding the histogram_loss)
 
-| T2P | T1 | | T2W | T2PH | | T1H | T2WH |
-|-------|--------|-|-------|--------|-|-------|--------|
-|![apple2orange_1](results/Figure_1.png) | 
-![apple2orange_1](results/Figure_2.png)| 
-|![apple2orange_2](results/Figure_3.png) | 
-![apple2orange_2](results/Figure_4.png)| 
-|![apple2orange_3](results/Figure_5.png) | 
-![apple2orange_3](results/Figure_6.png)|
+
+![apple2orange_1](results/Figure_1.png) 
+![apple2orange_1](results/Figure_2.png)
+![apple2orange_2](results/Figure_3.png) 
+![apple2orange_2](results/Figure_4.png) 
+![apple2orange_3](results/Figure_5.png)
+![apple2orange_3](results/Figure_6.png)
 
 ## Contributing
 Please open an issue if you have any trouble or found anything incorrect in my code :)
