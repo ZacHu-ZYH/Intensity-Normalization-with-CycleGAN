@@ -15,7 +15,7 @@ All ideas and methods of this code are proposed in this paper(https://ieeexplore
 * datasets/IMAGES_OF_XI Ten patients images from Siemens scanners
 
 ## Pretrained models
-My pretrained models are available at https://github.com/hzy5660251/Intensity-Normalization-with-CycleGAN/pretrained
+My pretrained models are available at https://github.com/hzy5660251/Intensity-Normalization-with-CycleGAN/tree/master/pretrained
 
 ## Data preparing
 
