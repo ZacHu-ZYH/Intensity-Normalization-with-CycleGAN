@@ -82,7 +82,6 @@ caculate_gmsd.m (in MATLAB)
 * T1H(After adding the histogram_loss)
 * T2WH(After adding the histogram_loss)
 
-
 ![apple2orange_1](results/Figure_1.png) 
 ![apple2orange_1](results/Figure_2.png)
 ![apple2orange_2](results/Figure_3.png) 
