@@ -58,6 +58,17 @@ python export_graph.py
 ```
 python test.py
 ```
+## Backprop test
+Because I added the new LOSS(histogram_loss), I used the following procedure to verify if the new loss can be backpropagated
+
+```
+python backprop_test.py
+```
+## Draw histogram results
+
+```
+python draw_histogram.py
+```
 
 ## Result evaluation
 
