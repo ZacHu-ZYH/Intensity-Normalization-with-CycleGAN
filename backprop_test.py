@@ -26,10 +26,16 @@ except:
 ##########CycleGAN中循环一致性损失函数能否反向传播验证###############
 gradient1 = K.gradients(loss, x)
 print('gradient1',gradient1)
+#==>输出为gradient1 [<tf.Tensor 'gradients_1/AddN_1:0' shape=(6,) dtype=float32>]
 ##########numpy分位数函数能否反向传播验证###############
-percent = np.percentile(x,50)
-mm = tf.bitcast(x,'int32')
-tt = tf.bincount(mm)
-print(tt)
+percent = np.percentile(x,30)
 gradient2 = K.gradients(percent, x)
 print('gradient2',gradient2)
+#==>输出为gradient2 [<tf.Tensor 'gradients_2/AddN:0' shape=(6,) dtype=float32>]
+
+
+x2 = tf.nn.top_k(x,6,sorted=True)[0]
+percent_x_1 = x2[1]
+gradient3 = K.gradients(percent_x_1, x)
+print('gradient3',gradient3)
+#==>输出为gradient3 [<tf.Tensor 'gradients_6/TopKV2_grad/Reshape_4:0' shape=(6,) dtype=float32>]
